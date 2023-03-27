@@ -12,3 +12,9 @@
 /src/packages/log4net.2.0.15
 /src/UpgradeLog.htm
 /.vs/log4net-gui-editor/v17
+/src/log4net GUI/bin/Release
+/src/log4net GUI/obj/Release
+/src/Log4netConfigConsulter/bin/Release
+/src/Log4netConfigConsulter/obj/Release
+/src/Log4netEditor/bin/Release
+/src/Log4netEditor/obj/Release
