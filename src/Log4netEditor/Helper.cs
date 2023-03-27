@@ -1,17 +1,14 @@
-using System;
-using System.IO;
-using System.Xml;
-using System.Text;
-using System.Collections;
-using System.Windows.Forms;
-using System.Reflection;
 using log4net.Core;
 using log4net.Layout;
 using Log4netConfigConsulter;
+using System;
+using System.Collections;
+using System.IO;
+using System.Reflection;
 
 namespace Log4netEditor
 {
-	public class Helper
+  public class Helper
 	{
 		public static ArrayList GetAppenders()
 		{

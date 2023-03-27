@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netEditor", "Log4netEditor\Log4netEditor.csproj", "{40385753-7EBF-4917-B4E1-B00C30B84134}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4netConfigConsulter", "Log4netConfigConsulter\Log4netConfigConsulter.csproj", "{014F0576-56C1-4F03-B993-85AA470EB5B9}"
@@ -28,5 +30,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8034D93-4D4F-434C-8874-207CA337F28D}
 	EndGlobalSection
 EndGlobal
