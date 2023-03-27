@@ -3,6 +3,7 @@ using System.IO;
 using System.Xml;
 using System.Reflection;
 using System.Collections;
+using System.Diagnostics;
 
 namespace Log4netConfigConsulter
 {
@@ -28,7 +29,7 @@ namespace Log4netConfigConsulter
 				msCONST_AppenderInfoDir + AppenderName + msCONST_EXTENSION_FILENAME
 				);
 
-			System.Diagnostics.Debug.Write(sFilePath, GetType().Name);
+			Debug.Write(sFilePath, GetType().Name);
 			_moInfoXmlDoc = new XmlDocument();
 			_mMyArguments = new ArrayList();
 			if (File.Exists(sFilePath))
@@ -91,7 +92,7 @@ namespace Log4netConfigConsulter
 			{
 				if (UIControlType.ParameterGrid == oArg.UIType)
 				{
-					System.Diagnostics.Debug.WriteLine("oArg.ParameterXml.Count = " + oArg.ParameterXml.Count);
+          Debug.WriteLine("oArg.ParameterXml.Count = " + oArg.ParameterXml.Count);
 					foreach (XmlNode tmpNode in oArg.ParameterXml)
 					{
 						XmlNode tmpNodeClone = _moXmlDoc.CreateNode(tmpNode.NodeType, tmpNode.Name, tmpNode.NamespaceURI);
@@ -104,6 +105,7 @@ namespace Log4netConfigConsulter
 					RecursiveFromArguments(oRootNode, oArg);
 				}
 			}
+
 			_moXmlDoc.AppendChild(oRootNode);
 		}
 
@@ -190,6 +192,7 @@ namespace Log4netConfigConsulter
 			{
 				bFound = false;
 			}
+
 			return bFound;
 		}
 

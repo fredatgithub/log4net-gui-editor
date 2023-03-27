@@ -1,11 +1,9 @@
-using System;
-
 namespace Log4netConfigConsulter
 {
-	/// <summary>
-	/// UIControlType ªººK­n´y­z¡C
-	/// </summary>
-	public enum UIControlType
+  /// <summary>
+  /// UIControlType
+  /// </summary>
+  public enum UIControlType
 	{
 		SingleLineTextBox,
 		MultiLineTextBox,
