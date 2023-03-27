@@ -1,0 +1,14 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/src/.vs/log4net GUI
+/src/log4net GUI/bin/Debug
+/src/log4net GUI/obj/Debug
+/src/Log4netConfigConsulter/bin/Debug
+/src/Log4netConfigConsulter/obj/Debug
+/src/Log4netEditor/bin/Debug
+/src/Log4netEditor/obj/Debug
+/src/packages/log4net.2.0.15
+/src/UpgradeLog.htm
+/.vs/log4net-gui-editor/v17
